@@ -38,7 +38,7 @@ const App = () => {
           Enter your Email below to login to your account
         </p>
         <form action="" onSubmit={handleSubmit(onSubmit)}>
-          <p>Email</p>
+          <p className='labels'>Email</p>
           <input
             {...register("email", {
               required: {
@@ -57,7 +57,7 @@ const App = () => {
             </div>
           }
           <div className="forgotpass">
-            <p>Password</p>
+            <p className='labels'>Password</p>
             <p className="forgottext">Forgot your password?</p>
           </div>
           <input

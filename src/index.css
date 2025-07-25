@@ -6,6 +6,10 @@
   font-family: "Open Sans" ,sans-serif;
 }
 
+.labels{
+  font-size: 18px;
+}
+
 body{
   display: flex;
   padding-left: 3rem;
@@ -96,4 +100,15 @@ form .login-btn{
   justify-content: center;
   color: rgb(255, 255, 255);
   margin-bottom: 1rem;
+}
+
+
+@media (max-width: 767px){
+  .labels{
+    font-size: 14px;
+  }
+
+  .forgottext{
+    font-size: 14px;
+  }
 }
