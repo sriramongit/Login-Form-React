@@ -16,7 +16,6 @@ body{
 }
 
 .container{
-  width: 50vh;
   padding: 2rem;
   border: 1px solid white;
   display: flex;
