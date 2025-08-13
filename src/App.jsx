@@ -70,10 +70,7 @@ const App = () => {
                 value: 3,
                 message: "Minimum password length is 3",
               },
-              maxLength: {
-                value: 8,
-                message: "Maximum password length is 8",
-              },
+              
             })}
             className="password"
             type="password"
